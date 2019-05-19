@@ -11,14 +11,8 @@ repositories {
     mavenCentral()
 }
 test{
-   useTestNG(){
-        suites "src/test/resources/testng.xml"
-        useDefaultListeners = true
-        outputDirectory = file("$projectDir/testng-Output")
-
+   useTestNG(){ 
     }
-    reports.html.setDestination(file("$projectDir/GradleReport"))
-
 }
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
