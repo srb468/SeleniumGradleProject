@@ -10,6 +10,7 @@ public class Run {
     @Test
     public void a()
     {
+        System.out.println("######################################################################");
         System.setProperty("webdriver.chrome.driver","C:\\Users\\sanjeev.kumar\\Desktop\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com/");
