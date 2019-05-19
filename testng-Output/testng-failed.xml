@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Gradle suite]">
+  <test name="Gradle test(failed)" preserve-order="true">
+    <classes>
+      <class name="Abc.Run">
+        <methods>
+          <include name="a"/>
+        </methods>
+      </class> <!-- Abc.Run -->
+      <class name="Abc.BaseTest">
+        <methods>
+          <include name="readexcel"/>
+        </methods>
+      </class> <!-- Abc.BaseTest -->
+      <class name="Abc.Makemytrip">
+        <methods>
+          <include name="searchFlight"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Abc.Makemytrip -->
+    </classes>
+  </test> <!-- Gradle test(failed) -->
+</suite> <!-- Failed suite [Gradle suite] -->

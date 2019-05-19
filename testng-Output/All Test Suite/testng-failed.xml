@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [All Test Suite]">
+  <parameter name="" value=""/>
+  <parameter name="browsers" value="firefox"/>
+  <test name="Payment(failed)" preserve-order="true">
+    <parameter name="" value=""/>
+    <parameter name="browsers" value="firefox"/>
+    <classes>
+      <class name="Abc.Run">
+        <methods>
+          <include name="a"/>
+        </methods>
+      </class> <!-- Abc.Run -->
+    </classes>
+  </test> <!-- Payment(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
