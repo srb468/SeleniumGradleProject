@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-
-    <test name="Payment">
-        <parameter name="browsers" value="firefox"></parameter>
-        <parameter name="" value="" ></parameter>
-
+<suite name="Gradle"  parallel="none">
+    <test name="test1">
         <classes>
             <class name="Abc.Run"/>
-
+            <methods>
+                <include name="Run"></include>
+            </methods>
         </classes>
     </test>
-
 </suite>
