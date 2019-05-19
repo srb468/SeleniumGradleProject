@@ -13,6 +13,6 @@ public class Run {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\sanjeev.kumar\\Desktop\\chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com/");
-        Assert.assertTrue(false);
+      
     }
 }
